@@ -8,7 +8,7 @@
 Ներբեռնել և տեղադրել phonenumbers գրադարանը(pip install phonenumbers)
 
 Չորրորդ քայլ
-Ներբեռնել և տեղադրել request գրադարանը(pip install request)
+Ներբեռնել և տեղադրել requests գրադարանը(pip install requests)
 
 
 
