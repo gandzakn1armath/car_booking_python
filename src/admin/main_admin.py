@@ -1,12 +1,30 @@
-from tkinter import *           #Ներմուծում ենք գրադարանները
-from tkinter import messagebox
-from datetime import datetime
-import phonenumbers
-from phonenumbers import carrier
-from phonenumbers.phonenumberutil import number_type
-import re
-from firebase import firebase
-import ctypes
+"""
+Youtube https://www.youtube.com/watch?v=_9wfxSg_8Ho
+Github  https://github.com/gandzakn1armath/car_booking_python.git
+Առաջին քայլ
+Ներբեռնել և տեղադրել Python լեզվի 3․6․0 տեսակը
+
+Երկրորդ քայլ
+Ներբեռնել և տեղադրել python-firebase գրադարանը(pip install python-firebase)
+
+Երրորդ քայլ
+Ներբեռնել և տեղադրել phonenumbers գրադարանը(pip install phonenumbers)
+
+Չորրորդ քայլ
+Ներբեռնել և տեղադրել requests գրադարանը(pip install requests)
+
+"""
+
+
+from tkinter import *           #Ներմուծում ենք tkinter գրադարանը
+from tkinter import messagebox    #Ներմուծում ենք tkinter գրադարանի messagebox բաժինը  
+from datetime import datetime     #Ներմուծում ենք datetime գրադարանը
+import phonenumbers      #Ներմուծում ենք phonenumbers գրադարանը
+from phonenumbers import carrier    #Ներմուծում ենք phonenumbers գրադարանի carrier բաժինը
+from phonenumbers.phonenumberutil import number_type    #Ներմուծում ենք phonenumbers.phonenumberutil գրադարանի  number_type բաժինը
+import re    #Ներմուծում ենք re գրադարանը
+from firebase import firebase   #Ներմուծում ենք firebase գրադարանը
+import ctypes   #Ներմուծում ենք ctypes գրադարանը
 user32 = ctypes.windll.user32
 
 class Design:#Ադմինի դիզայն կլաս
